@@ -1,0 +1,20 @@
+/* pages/components/like/index.wxss */
+ .like{
+   width: 80rpx;
+   display: flex;
+   /* height: 60rpx; */
+   
+ }
+ .like image{
+   /* rpx 自适应 */
+  width: 32rpx;
+  height: 28rpx;
+  margin-top: 7px;
+}
+.like text{
+  position: relative;
+  font-size: 24rpx;
+  top: 8rpx;
+  /*文字都是有留白的*/
+  line-height: 24rpx;
+}

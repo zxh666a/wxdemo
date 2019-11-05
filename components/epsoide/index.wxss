@@ -1,0 +1,31 @@
+/* components/epsoide/index.wxss */
+
+.container {
+  display: flex;
+}
+
+.no {
+  font-size: 30rpx;
+}
+
+.index {
+  font-size: 50rpx;
+}
+
+.shugang {
+  position: relative;
+  top: 10rpx;
+}
+
+.right {
+  position: relative;
+  top: 7rpx;
+  left: 5rpx;
+}
+
+.month,
+.year {
+  display: block;
+  font-size: 20rpx;
+  font-weight: bold;
+}

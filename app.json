@@ -1,0 +1,43 @@
+{
+	"pages": [
+		"pages/classic/classic",
+		"pages/book/book",
+		"pages/me/me"
+	],
+	"requiredBackgroundModes": [
+		"audio",
+		"location"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "旧岛小样",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/classic/classic",
+				"text": "电影",
+				"iconPath": "pages/classic/img/classic.png",
+				"selectedIconPath": "pages/classic/img/classic-a.png",
+				"selectedColor": "#000000"
+			},
+			{
+				"pagePath": "pages/book/book",
+				"text": "书籍",
+				"iconPath": "pages/book/img/book.png",
+				"selectedIconPath": "pages/book/img/book-a.png",
+				"selectedColor": "#000000"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的",
+				"iconPath": "pages/me/img/my.png",
+				"selectedIconPath": "pages/me/img/my-a.png",
+				"selectedColor": "#000000"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,14 @@
+<!--components/epsoide/index.wxml-->
+<view class="container">
+  <view class="left">
+    <text class="no">No.</text>
+    <text class="index">{{_index}}</text>
+
+  </view>
+      <text class="shugang">|
+    </text>
+  <view class="right">
+    <text class="month">{{month}}</text>
+    <text class="year">{{year}}</text>
+  </view>
+</view>

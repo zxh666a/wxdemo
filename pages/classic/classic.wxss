@@ -1,0 +1,15 @@
+.like{
+	display: flex;
+}
+like{
+	color: red;
+	position: absolute;
+	top: 10rpx;
+	right: 60px
+}
+.date{
+display: flex
+}
+epsoide{
+
+}

@@ -1,0 +1,31 @@
+@import "../classic_css.wxss";
+@keyframes rotation{
+	0%{
+		transform: rotate(0deg)
+	}
+	100%{
+		transform: rotate(360deg)
+	}
+}
+.imgrotation{
+	animation: rotation 10s linear infinite
+}
+.classic-img2 {
+  width: 500rpx;
+  height: 480rpx;
+	margin-top: 60rpx;
+	border-radius: 50%
+}
+.content {
+  display: block;
+  width: 500rpx;
+  text-align: center;
+  font-size: 36rpx;
+  line-height: 50rpx
+}
+.playing{
+	position: absolute;
+	width: 120rpx;
+	height: 120rpx;
+	top: 240rpx;
+}

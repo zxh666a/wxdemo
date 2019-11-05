@@ -1,0 +1,31 @@
+<!-- 通过prop属性定义的变量来传递数据 -->
+<view class="date">
+<epsoide index="{{classicData.index}}"></epsoide>
+</view>
+
+<view class="like">
+<like  bind:like='onlike' 
+			 blike="{{classicData.like_status}}" 
+			 count='{{classicData.fav_nums}}'></like>
+</view>
+
+<movie wx:if="{{classicData.type ==100}}" 
+			 content="{{classicData.content}}" 
+			 imgurl="{{classicData.image}}"></movie>
+
+<music wx:if="{{classicData.type ==200}}" 
+			 content="{{classicData.content}}" 
+			 imgurl="{{classicData.image}}" 
+			 src="{{classicData.url}}" 
+			 title="{{classicData.title}}"></music>
+
+<essay wx:if="{{classicData.type ==300}}" 
+			 content="{{classicData.content}}" 
+			 imgurl="{{classicData.image}}"></essay>
+
+<nav bindleft="onleft" 
+		 bindright="onright" 
+		 title="{{classicData.title}}" 
+		 first="{{first}}" 
+		 latest="{{latest}}"></nav>
+

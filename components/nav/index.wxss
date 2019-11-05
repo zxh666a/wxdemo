@@ -1,0 +1,23 @@
+/* components/nav/index.wxss */
+.icon{
+	height: 58rpx;
+	width: 58rpx
+}
+.container{
+	height:68rpx;
+	display: flex;
+	width: 600rpx;
+	background-color: #eee;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 8px;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 150rpx;
+	left: 10%
+}
+.tltle{
+	font-size: 30rpx;
+	line-height: 30rpx
+}

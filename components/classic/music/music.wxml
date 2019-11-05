@@ -1,0 +1,7 @@
+<!--components/classic/music/music.wxml-->
+<view class='classic-container'>
+  <image class="classic-img2 {{playing?'imgrotation':''}}" src='{{imgurl}}'></image>
+	<image  class="playing" src="{{playing?playsrc:stopsrc}}" bindtap="onplay"></image>
+  <image class='tag' src='img/music.png'></image>
+  <text class='content'>{{content}}</text>
+</view>

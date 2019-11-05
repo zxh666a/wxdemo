@@ -1,0 +1,5 @@
+<!--pages/components/like/index.wxml-->
+<view class='like'>
+  <image src="{{blike?likeSrc:unlike}}" bindtap='onlike'></image>
+  <text>{{count}}</text>
+</view>
