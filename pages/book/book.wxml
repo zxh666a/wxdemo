@@ -1,2 +1,2 @@
 <!--pages/book.wxml-->
-<text>pages/book.wxml</text>
+<book book="{{books}}"></book>
