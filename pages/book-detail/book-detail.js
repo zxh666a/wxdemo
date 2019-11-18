@@ -1,4 +1,4 @@
-// pages/book.js
+// pages/book-detail.js
 import { BookModel } from "../../model/book.js"
 const bookModel = new BookModel()
 Page({
@@ -7,18 +7,20 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-		books:{}
+		bookdetails:{}
 	},
 
 	/**
 	 * 生命周期函数--监听页面加载
 	 */
 	onLoad: function (options) {
-		const booklist = bookModel.getBookList()
-		booklist.then(res=>{
-			// console.log(res)
+		// console.log(options.bid)
+		var bid = options.bid
+		const bookdetail = bookModel.getBookdetail(bid)
+		bookdetail.then(res=>{
+			console.log(res)
 			this.setData({
-				books :res.data
+				bookdetails :res.data
 			})
 		})
 	},

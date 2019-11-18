@@ -1,0 +1,20 @@
+/* components/bookdetail/bookdetail.wxss */
+
+/* .Division {
+  width: 100%;
+  height: 30rpx;
+  background-color: #dfe6e9;
+}
+
+.container {
+	position: relative
+}
+
+image {
+  width: 250rpx;
+  height: 300rpx;
+  position: absolute;
+  left: 50%;
+	top: 40rpx;
+  transform: translateX(-50%);
+} */

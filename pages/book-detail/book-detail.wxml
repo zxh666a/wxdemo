@@ -1,0 +1,5 @@
+<!--pages/book-detail.wxml-->
+<view>
+<bookdetail bookdetail="{{bookdetails}}"></bookdetail>
+</view>
+

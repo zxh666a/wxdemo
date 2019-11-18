@@ -1,11 +1,11 @@
 <!--components/book/index.wxml-->
-<view class="search">
+<!-- <view class="search">
   <input class="input" placeholder="搜索书籍"></input>
-</view>
+</view> -->
 <view class="jingxuan">精选</view>
-<view class="main">
-  <view class="container" wx:for="{{book}}" wx:key="index">
-    <view class="description">
+<view class="main"  >
+  <view class="container" wx:for="{{book}}"  wx:key="index" >
+    <view class="description" bindtap="ontap" data-id="{{item.id}}">
       <image src="{{item.image}}" class="img"></image>
 			<view class="title">{{item.title}}</view>
       <text class="author">{{item.author}}</text>

@@ -1,0 +1,12 @@
+<!--components/bookdetail/bookdetail.wxml-->
+<view class="container">
+	<image src="{{bookdetail.image}}"></image>
+	<view>{{bookdetail.title}}</view>
+	<view>{{bookdetail.author}}</view>
+</view>
+
+<view class="Division"></view>
+
+<view>
+	
+</view>

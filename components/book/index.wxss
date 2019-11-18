@@ -1,22 +1,25 @@
-
 /* 搜索 */
-.search{
-	margin-bottom: 20rpx;
-}
-.input{
-	width: 85%;
-	text-align: center;
-	margin: 0 auto;
-	border-radius: 15px;
-	background-color: #ecf0f1;
-	font-size: 28rpx;
+
+.search {
+  margin-bottom: 20rpx;
 }
 
-.jingxuan{
-	background-color: #ecf0f1;
-	text-align: center;
+.input {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #ecf0f1;
+  font-size: 28rpx;
 }
+
+.jingxuan {
+  background-color: #ecf0f1;
+  text-align: center;
+}
+
 /* 主体 */
+
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -27,35 +30,53 @@
   width: 350rpx;
   height: 400rpx;
 }
+
 /* 书籍 */
+
 .description {
-	margin-left: 25%;
-	justify-content: center;
-	margin-top: 20rpx;
+  margin-left: 25%;
+  justify-content: center;
+  margin-top: 20rpx;
   width: 230rpx;
   height: 370rpx;
   font-size: 30rpx;
   background-color: #ffff;
 }
+
 .img {
   width: 230rpx;
   height: 250rpx;
 }
-.title{
-	width: 220rpx;
-	/* height: 40rpx; */
-	white-space: nowrap;
-	overflow: hidden;
-	font-size: 12px;
+
+.title {
+  width: 220rpx;
+  /* height: 40rpx; */
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  padding-left: 5rpx;
 }
-.author{
-	display: block;
-	font-size: 11px;
-	color: #bdc3c7
+
+.author {
+  display: block;
+  font-size: 11px;
+  color: #bdc3c7;
+  overflow: hidden;
+  width: 200rpx;
+  height: 39rpx;
+  text-overflow: ellipsis;
+  padding-left: 5rpx;
 }
-.like{
-	font-size: 11px;
+
+.like {
+  font-size: 11px;
+  position: relative;
 }
-.fav{
-	padding-right: 10%
+
+.fav {
+  position: absolute;
+  color: #bdc3c7;
+  font-size: 10px;
+  right: 5%;
 }

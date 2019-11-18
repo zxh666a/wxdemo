@@ -1,9 +1,9 @@
 {
 	"pages": [
-
 		"pages/classic/classic",
-				"pages/book/book",
-		"pages/me/me"
+		"pages/book/book",
+		"pages/me/me",
+		"pages/book-detail/book-detail"
 	],
 	"requiredBackgroundModes": [
 		"audio",
@@ -16,7 +16,7 @@
 		"navigationBarTextStyle": "black"
 	},
 	"tabBar": {
-		"selectedColor":"#000000",
+		"selectedColor": "#000000",
 		"color": "#c7c7c7",
 		"list": [
 			{

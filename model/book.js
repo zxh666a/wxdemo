@@ -6,5 +6,11 @@ class BookModel extends HTTP {
 			method:"GET"
 		})
 	}
+	getBookdetail(bid){
+		return this.request({
+			url:'book/'+ bid+ '/detail',
+			method:"GET"
+		})
+	}
 }
 export { BookModel}
