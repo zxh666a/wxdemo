@@ -1,0 +1,5 @@
+<view class="container">
+	<text>{{comment}}</text>
+	<slot name="num"></slot>
+<!-- <text>{{num}}</text> -->
+</view>

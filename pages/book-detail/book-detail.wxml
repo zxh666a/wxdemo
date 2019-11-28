@@ -1,5 +1,14 @@
 <!--pages/book-detail.wxml-->
-<view>
-<bookdetail bookdetail="{{bookdetails}}"></bookdetail>
+<view class="tag">
+	<block wx:for="{{comments}}" wx:key="index">
+	 <tag comment="{{item.content}}">
+	 	<text slot="num" class="num">{{"+" + item.nums}}</text>
+	 </tag>
+	</block>
 </view>
+
+
+ <view>
+<bookdetail bookdetail="{{bookdetails}}"></bookdetail>
+</view> 
 

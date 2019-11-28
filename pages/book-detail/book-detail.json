@@ -1,5 +1,6 @@
 {
 	"usingComponents": {
-		"bookdetail": "../../components/bookdetail"
+		"bookdetail": "../../components/bookdetail",
+		"tag":"../../components/tag"
 	}
 }

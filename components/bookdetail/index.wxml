@@ -1,12 +1,31 @@
 <!--components/bookdetail/bookdetail.wxml-->
 <view class="container">
-	<image src="{{bookdetail.image}}"></image>
-	<view>{{bookdetail.title}}</view>
-	<view>{{bookdetail.author}}</view>
+  <image src="{{bookdetail.image}}"></image>
+  <view class="title">{{bookdetail.title}}</view>
+  <view class="author">{{bookdetail.author}}</view>
 </view>
 
 <view class="Division"></view>
 
+
 <view>
-	
+
+  <view>
+    <view class="desc">内容简介</view>
+    <view class="bookdesc">{{bookdetail.summary}}</view>
+  </view>
+
+
+  <view class="Division"></view>
+
+  <view class="bookdetail">
+    <view class="bookinfo">书本信息</view>
+    <view class="info">
+      <view>出版社：{{bookdetail.publisher}}</view>
+      <view>出版年：{{bookdetail.pubdate}}</view>
+      <view>页数：{{bookdetail.pages}}</view>
+      <view>定价：{{bookdetail.price}}</view>
+      <view>装帧：{{bookdetail.binding}}</view>
+    </view>
+  </view>
 </view>

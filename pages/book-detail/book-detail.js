@@ -7,7 +7,9 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-		bookdetails:{}
+		bookdetails:{},
+		comments:[],
+		fav:[]
 	},
 
 	/**
@@ -17,11 +19,29 @@ Page({
 		// console.log(options.bid)
 		var bid = options.bid
 		const bookdetail = bookModel.getBookdetail(bid)
+		const bookshort = bookModel.getBookshotcomment(bid)
+		const bookfav = bookModel.getBookfav(bid)
 		bookdetail.then(res=>{
-			console.log(res)
+			// console.log(res)
 			this.setData({
 				bookdetails :res.data
 			})
+		})
+
+		bookshort.then(res => {
+			// console.log(res)
+			this.setData({
+				comments: res.data.comments
+			})
+			console.log(this.data.comments)
+		})
+
+		bookfav.then(res => {
+			// console.log(res)
+			this.setData({
+				fav: res.data
+			})
+			console.log(this.data.fav)
 		})
 	},
 

@@ -1,1 +1,19 @@
 /* pages/book-detail.wxss */
+.tag{
+	display: flex;
+	flex-wrap: wrap
+}
+.tag tag{
+	height: 20rpx;
+	/* width: 40px;
+	overflow: hidden;
+	white-space: nowrap; */
+	line-height: 20rpx;
+	font-size: 26rpx;
+	padding: 20rpx;
+	border: 1px solid #eeee;
+	background-color: #e6e5
+}
+.num{
+	color: red
+}
